@@ -1,3 +1,21 @@
-page-home {
-
+page-home
+{
+  .home
+  {
+    background-color: #d4d4d4;
+  }
+  .cost
+  {
+    margin-left: 15px;
+  }
+  .cost-add
+  {
+    background-color: #96dab7;
+    color: #1f6346;
+  }
+  .cost-remove
+  {
+    background-color: #f5a5a5;
+    color: #bf2e2e;
+  }
 }
