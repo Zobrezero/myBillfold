@@ -37,6 +37,7 @@ export class HomePage
   addCost(q:Cost)
   {
     this.total += q.plus ? q.quantity * 1 : q.quantity * (-1);
+    this.registered.reverse();
     this.registered = this.registered.concat([q]);
     this.registered.reverse();
   }
